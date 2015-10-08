@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# Backup files
+*~
+
+# Proxy file
+localhost:1080
