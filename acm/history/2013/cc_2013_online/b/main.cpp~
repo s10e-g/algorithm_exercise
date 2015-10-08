@@ -1,0 +1,103 @@
+#include <iostream>
+#include <cstdio>
+#include <list>
+#include <vector>
+
+using namespace std;
+
+struct SUB_NET{
+    unsigned int ip;
+    int mask;
+};
+
+struct SUB_NET get_subnet();
+
+unsigned int get_ip();
+
+int main()
+{
+    char p;
+    int id, n, max_id = 1, min_id = 1024;
+    unsigned int ip_src, ip_dst;
+    vector< list<SUB_NET> > policy(1025);
+    while(cin>>p){
+        switch(p){
+            case 'D':
+                cin>>id;
+                policy[id].clear();
+                break;
+            case 'E':
+                cin>>id>>n;
+                if(id > max_id)
+                    max_id = id;
+                if(id < min_id)
+                    min_id = id;
+                for(int i = 0; i < n; ++i){
+                    policy[id].push_back(get_subnet());
+                }
+                break;
+            case 'F':
+                ip_src = get_ip();
+                ip_dst = get_ip();
+                bool src, dst;
+                for(int i = min_id; i < max_id; ++i){
+                    src = 0;
+                    dst = 0;
+                    for(list<SUB_NET>::iterator j = policy[i].begin(); j != policy[i].end(); ++i){
+                        if((j->ip & j->mask) == (ip_src & j->mask))
+                            src = true;
+                        if((j->ip & j->mask) == (ip_dst & j->mask))
+                            dst = true;
+                    }
+                    if(src && dst){
+                        break;
+                    }
+                }
+                if(src && dst)
+                    cout<<"F"<<endl;
+                else
+                    cout<<"D"<<endl;
+                break;
+        }
+    }
+    return 0;
+}
+
+unsigned int get_ip()
+{
+    unsigned int a, b, c, d, ip;
+    scanf("%u.%u.%u.%u", &a, &b, &c, &d);
+    ip = a;
+    ip <<= 8;
+    ip += b;
+    ip <<= 8;
+    ip += c;
+    ip <<= 8;
+    ip += d;
+
+    return ip;
+}
+
+struct SUB_NET get_subnet()
+{
+    unsigned int a, b, c, d, e;
+    SUB_NET res;
+    scanf("%u.%u.%u.%u/%u", &a, &b, &c, &d, &e);
+
+    res.ip = a;
+    res.ip <<= 8;
+    res.ip += b;
+    res.ip <<= 8;
+    res.ip += c;
+    res.ip <<= 8;
+    res.ip += d;
+
+    res.mask = 0;
+    for(unsigned int i = 0; i < e; ++i)
+        res.mask += 1<<(31-i);
+
+    cout<<res.ip<<" "<<res.mask<<endl;
+
+    return res;
+}
+

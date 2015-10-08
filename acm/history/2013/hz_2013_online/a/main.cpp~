@@ -1,0 +1,97 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <list>
+#include <queue>
+
+using namespace std;
+
+struct PATH{
+    int u, v, w;
+};
+
+inline bool cmp(PATH, PATH);
+
+bool connect(vector< list<PATH> > &, int, int);
+
+int main()
+{
+    int n, m, ans;
+    vector< list<PATH> > island(1001);
+    vector<PATH> path;
+    PATH tem_p;
+    cin>>n>>m;
+    while(n || m){
+        for(int i = 1; i <= n; ++i)
+            island[i].clear();
+        path.clear();
+        for(int i = 0; i < m; ++i){
+            cin>>tem_p.u>>tem_p.v>>tem_p.w;
+            path.push_back(tem_p);
+            island[tem_p.u].push_back(tem_p);
+            island[tem_p.v].push_back((struct PATH){tem_p.v, tem_p.u, tem_p.w});
+        }
+
+        ans = -1;
+        for(int i = 1; i <= n; ++i){
+            if(island[i].empty()){
+                ans = 0;
+                break;
+            }
+        }
+        if(ans){
+            sort(path.begin(), path.end(), cmp);
+
+            for(vector<PATH>::iterator i = path.begin(); i != path.end(); ++i){
+                for(list<PATH>::iterator j = island[i->u].begin(); j != island[i->u].end(); ++j)
+                    if(j->v == i->v){
+                        island[i->u].erase(j);
+                        break;
+                    }
+                for(list<PATH>::iterator j = island[i->v].begin(); j != island[i->v].end(); ++j)
+                    if(j->v == i->u){
+                        island[i->v].erase(j);
+                        break;
+                    }
+                if(connect(island, i->u, i->v)){
+                    ans = i->w;
+                    break;
+                }
+                else{
+                    island[i->u].push_back((struct PATH){i->u, i->v, i->w});
+                    island[i->v].push_back((struct PATH){i->v, i->u, i->w});
+                }
+            }
+        }
+
+        cout<<ans<<endl;
+        cin>>n>>m;
+    }
+    return 0;
+}
+
+inline bool cmp(PATH a, PATH b)
+{
+    return a.w < b.w;
+}
+
+bool connect(vector< list<PATH> > &island, int u, int v)
+{
+    bool done[1001] = {0};
+    queue<int> q;
+    q.push(u);
+    done[u] = true;
+    while(!q.empty()){
+        for(list<PATH>::iterator i = island[q.front()].begin();
+                i != island[q.front()].end(); ++i){
+            if(!done[i->v])
+                q.push(i->v);
+            done[i->v] = true;
+            if(i->v == v)
+                return true;
+        }
+        q.pop();
+    }
+    return false;
+}
+

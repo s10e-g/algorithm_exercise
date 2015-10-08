@@ -1,0 +1,93 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    int n, m, k, x, y, ws, hs, wi, hi, max;
+    int wf[100001] = {0, 1};
+    int hf[100001] = {0, 1};
+    int wa[100001] = {0};
+    int ha[100001] = {0};
+    int wp, hp;
+    while (cin>>n>>m) {
+        memset(wf, 0, sizeof(int[100001]));
+        memset(hf, 0, sizeof(int[100001]));
+        wf[1] = 1;
+        hf[1] = 1;
+        k = 0;
+        for (int i = 2; i <= n; ++i)
+            cin>>wf[i];
+        for (int i = 2; i <= n; ++i)
+            cin>>hf[i];
+        for (int i = 0; i < m; ++i) {
+            cin>>x>>y;
+            memset(wa, 0, sizeof(int)*(n+1));
+            memset(ha, 0, sizeof(int)*(n+1));
+            ws = (x+k)%n+1;
+            hs = (y+k)%n+1;
+            wi = ws;
+            hi = hs;
+
+            max = n;
+            wp = 1;
+            wa[wi] = 1;
+            hp = 1;
+            ha[hi] = 1;
+            if (ha[wi]) {
+                k = wi;
+                cout<<k<<' '<<wa[k]<<' '<<ha[k]<<endl;
+                continue;
+            }
+            for (int i = 1; i < max; ++i) {
+                if (wi != 1) {
+                    wi = wf[wi];
+                    wa[wi] = wp;
+                }
+                else {
+                    while (hi != 1) {
+                        hi = hf[hi];
+                        ++hp;
+                        ha[hi] = hp;
+                        if (wa[hi]) {
+                            k = hi;
+                            goto output;
+                        }
+                    }
+                    break;
+                }
+                if (hi != 1) {
+                    hi = hf[hi];
+                    ++hp;
+                    ha[hi] = hp;
+                }
+                else {
+                    while (wi != 1) {
+                        wi = wf[wi];
+                        ++wp;
+                        wa[wi] = wp;
+                        if (ha[wi]) {
+                            k = wi;
+                            goto output;
+                        }
+                    }
+                    break;
+                }
+                if (ha[wi]) {
+                    k = wi;
+                    break;
+                }
+                if (wa[hi]) {
+                    k = hi;
+                    break;
+                }
+            }
+output:
+            cout<<k<<' '<<wa[k]<<' '<<ha[k]<<endl;
+        }
+    }
+    return 0;
+}
+

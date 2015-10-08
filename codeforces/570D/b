@@ -1,0 +1,574 @@
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 50: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/dockerfile.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/dockerfile.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/nginx.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/nginx.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/stp.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/stp.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+chdir(/usr/share/vim/vim74/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vim74/ftdetect/lilypond.vim"
+finished sourcing /usr/share/vim/vim74/ftdetect/lilypond.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/after/filetype.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /etc/vimrc
+Searching for "filetype.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin.vim"
+finished sourcing /etc/vimrc
+chdir(/home/shadowmourne)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "ftoff.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after"
+Searching for "/home/shadowmourne/.vim/ftoff.vim"
+Searching for "/usr/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/share/vim/vim74/ftoff.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/ftoff.vim"
+finished sourcing /usr/share/vim/vim74/ftoff.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/home/shadowmourne/.vim/after/ftoff.vim"
+Searching for "autoload/vundle.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim"
+Searching for "/home/shadowmourne/.vim/autoload/vundle.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/vundle.vim"
+Searching for "/usr/share/vim/vim74/autoload/vundle.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/vundle.vim"
+Searching for "/home/shadowmourne/.vim/after/autoload/vundle.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle.vim"
+chdir(/home/shadowmourne/.vim/bundle/Vundle.vim/autoload)
+fchdir() to previous dir
+line 25: sourcing "/home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle.vim"
+finished sourcing /home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "autoload/vundle/config.vim" in "/home/shadowmourne/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim"
+Searching for "/home/shadowmourne/.vim/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vim74/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/vundle/config.vim"
+Searching for "/home/shadowmourne/.vim/after/autoload/vundle/config.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle/config.vim"
+chdir(/home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle)
+fchdir() to previous dir
+line 4: sourcing "/home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle/config.vim"
+finished sourcing /home/shadowmourne/.vim/bundle/Vundle.vim/autoload/vundle/config.vim
+continuing in function vundle#begin..vundle#rc
+Searching for "filetype.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 38: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/dockerfile.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/dockerfile.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/nginx.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/nginx.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/stp.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/stp.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+chdir(/usr/share/vim/vim74/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vim74/ftdetect/lilypond.vim"
+finished sourcing /usr/share/vim/vim74/ftdetect/lilypond.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftdetect/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 38: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 38: sourcing "/usr/share/vim/vim74/indent.vim"
+finished sourcing /usr/share/vim/vim74/indent.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/indent.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 71: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 15: sourcing "/usr/share/vim/vim74/syntax/nosyntax.vim"
+finished sourcing /usr/share/vim/vim74/syntax/nosyntax.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "syntax/synload.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/synload.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/synload.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/synload.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "filetype.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 82: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/filetype.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 82: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 82: sourcing "/usr/share/vim/vim74/indent.vim"
+finished sourcing /usr/share/vim/vim74/indent.vim
+continuing in /home/shadowmourne/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/indent.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/indent.vim"
+Searching for "colors/molokai.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/colors/molokai.vim"
+chdir(/home/shadowmourne/.vim/colors)
+fchdir() to previous dir
+line 142: sourcing "/home/shadowmourne/.vim/colors/molokai.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 11: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/shadowmourne/.vim/colors/molokai.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 13: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/shadowmourne/.vim/colors/molokai.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 17: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/shadowmourne/.vim/colors/molokai.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/shadowmourne/.vim/colors/molokai.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/syncolor.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/syncolor.vim"
+finished sourcing /home/shadowmourne/.vim/colors/molokai.vim
+continuing in /home/shadowmourne/.vimrc
+finished sourcing $HOME/.vimrc
+Reading viminfo file "/home/shadowmourne/.viminfo" info oldfiles
+"main.cpp" 
+"main.cpp" 39L, 733C
+Reading viminfo file "/home/shadowmourne/.viminfo" marks
+Executing BufRead Auto commands for "*"
+autocommand if line("'\"") > 0 && line ("'\"") <= line("$") |   exe "normal! g'\"" | endif
+
+Executing BufRead Auto commands for "*.cpp"
+autocommand if exists("cynlib_syntax_for_cpp")|setf cynlib|else|setf cpp|endif
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+Searching for "ftplugin/cpp.vim ftplugin/cpp_*.vim ftplugin/cpp/*.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/cpp/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/cpp.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/cpp_*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/cpp/*.vim"
+Searching for "/usr/share/vim/vim74/ftplugin/cpp.vim"
+chdir(/usr/share/vim/vim74/ftplugin)
+fchdir() to previous dir
+line 17: sourcing "/usr/share/vim/vim74/ftplugin/cpp.vim"
+Searching for "ftplugin/c.vim ftplugin/c_*.vim ftplugin/c/*.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/ftplugin/c/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/c.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/c_*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/c/*.vim"
+Searching for "/usr/share/vim/vim74/ftplugin/c.vim"
+chdir(/usr/share/vim/vim74/ftplugin)
+fchdir() to previous dir
+line 12: sourcing "/usr/share/vim/vim74/ftplugin/c.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin/c.vim
+continuing in /usr/share/vim/vim74/ftplugin/cpp.vim
+Searching for "/usr/share/vim/vim74/ftplugin/c_*.vim"
+Searching for "/usr/share/vim/vim74/ftplugin/c/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/c.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/c_*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/c/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/c_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/c/*.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin/cpp.vim
+continuing in function <SNR>10_LoadFTPlugin
+Searching for "/usr/share/vim/vim74/ftplugin/cpp_*.vim"
+Searching for "/usr/share/vim/vim74/ftplugin/cpp/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/cpp.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/cpp_*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/after/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/ftplugin/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/cpp_*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/ftplugin/cpp/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+Searching for "indent/cpp.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/indent/cpp.vim"
+Searching for "/usr/share/vim/vimfiles/indent/cpp.vim"
+Searching for "/usr/share/vim/vim74/indent/cpp.vim"
+chdir(/usr/share/vim/vim74/indent)
+fchdir() to previous dir
+line 14: sourcing "/usr/share/vim/vim74/indent/cpp.vim"
+finished sourcing /usr/share/vim/vim74/indent/cpp.vim
+continuing in function <SNR>15_LoadIndent
+Searching for "/usr/share/vim/vimfiles/after/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/after/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/indent/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/indent/cpp.vim"
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/cpp.vim syntax/cpp/*.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/cpp/*.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/cpp.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/cpp/*.vim"
+Searching for "/usr/share/vim/vim74/syntax/cpp.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 24: sourcing "/usr/share/vim/vim74/syntax/cpp.vim"
+Searching for "syntax/c.vim" in "/home/shadowmourne/.vim,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/clang_complete,/home/shadowmourne/.vim/bundle/xterm-color-table.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/shadowmourne/.vim/after,/home/shadowmourne/.vim/bundle/Vundle.vim,/home/shadowmourne/.vim/bundle/Vundle.vim/after,/home/shadowmourne/.vim/bundle/clang_complete/after,/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after"
+Searching for "/home/shadowmourne/.vim/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/syntax/c.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/c.vim"
+Searching for "/usr/share/vim/vim74/syntax/c.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/c.vim"
+finished sourcing /usr/share/vim/vim74/syntax/c.vim
+continuing in /usr/share/vim/vim74/syntax/cpp.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/c.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/c.vim"
+finished sourcing /usr/share/vim/vim74/syntax/cpp.vim
+continuing in function <SNR>3_SynSet
+Searching for "/usr/share/vim/vim74/syntax/cpp/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/cpp.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/after/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/Vundle.vim/after/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/clang_complete/after/syntax/cpp/*.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/cpp.vim"
+Searching for "/home/shadowmourne/.vim/bundle/xterm-color-table.vim/after/syntax/cpp/*.vim"
+Executing Syntax Auto commands for "cpp"
+autocommand if (exists('b:load_doxygen_syntax') && b:load_doxygen_syntax)^I|| (exists('g:load_doxygen_syntax') && g:load_doxygen_syntax)   | runtime! syntax/doxygen.vim | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if line("'\"") > 1 && line("'\"") <= line("$") |   exe "normal! g`\"" | endif
+
+
+Writing viminfo file "/home/shadowmourne/.viminfo"

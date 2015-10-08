@@ -1,0 +1,83 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int v[31][31];
+pair<int, float> f[31][31][31][31];   //sum, variance
+
+inline float combined_variance(int, pair<int, float>, int, pair<int, float>);
+pair<int, float> search(int, int, int, int);
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    int T, n, m;
+    cin>>T;
+    for (int t = 1; t <= T; ++t) {
+        cin>>n>>m;
+        memset(f, -1, sizeof(f));
+        memset(v, 0, sizeof(v));
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                cin>>v[i][j];
+            }
+        }
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                f[i][j][i][j] = make_pair(v[i][j], 0);
+                f[i][j][i+1][j] = make_pair(
+                        v[i][j]+v[i+1][j],
+                        (v[i][j]-float(v[i][j]+v[i+1][j])/2)*
+                        (v[i][j]-float(v[i][j]+v[i+1][j])/2)+
+                        (v[i+1][j]-float(v[i][j]+v[i+1][j])/2)*
+                        (v[i+1][j]-float(v[i][j]+v[i+1][j])/2)
+                        );
+                f[i][j][i][j+1] = make_pair(
+                        v[i][j]+v[i][j+1],
+                        (v[i][j]-float(v[i][j]+v[i][j+1])/2)*
+                        (v[i][j]-float(v[i][j]+v[i][j+1])/2)+
+                        (v[i][j+1]-float(v[i][j]+v[i][j+1])/2)*
+                        (v[i][j+1]-float(v[i][j]+v[i][j+1])/2)
+                        );
+            }
+        }
+        cout<<"Case #"<<t<<": "<<search(0, 0, n-1, m-1).second*(n+m-1)<<endl;
+    }
+    return 0;
+}
+
+inline float combined_variance(int n1, pair<int, float> s1, int n2, pair<int, float> s2)
+{
+    float cam = float(s1.first+s2.first)/(n1+n2);
+    float c1 = n1*(s1.second/n1+(float(s1.first)/n1-cam)*(float(s1.first)/n1-cam));
+    float c2 = n2*(s2.second/n2+(float(s2.first)/n2-cam)*(float(s2.first)/n2-cam));
+    return c1+c2;
+}
+
+pair<int, float> search(int x1, int y1, int x2, int y2)
+{
+    if (f[x1][y1][x2][y2].first >= 0)
+        return f[x1][y1][x2][y2];
+    float cv, min = 30000;
+    int mini, minj;
+    for (int i = x1; i <= x2; ++i) {
+        for (int j = y1; j <= y2; ++j) {
+            if (i == x1 && j == y1)
+                continue;
+            cv = combined_variance(
+                    i-x1+j-y1+1, search(x1, y1, i, j),
+                    x2-i+y2-j+1, search(i, j, x2, y2)
+                    );
+            if (cv < min) {
+                min = cv;
+                mini = i;
+                minj = j;
+            }
+        }
+    }
+    return f[x1][y1][x2][y2] = make_pair(
+            f[x1][y1][mini][minj].first + f[mini][minj][x2][y2].first,
+            min
+            );
+}
+

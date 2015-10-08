@@ -1,0 +1,67 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int f(int x);
+
+int main()
+{
+    int T, a, b, ans, fa;
+    cin>>T;
+    for(int t = 0; t < T; ++t){
+        cin>>a>>b;
+        fa = f(a);
+        int min = 9, max = 0;
+
+        for(int i = 0; i < 9; ++i){
+            if(f(min) <= fa){
+                min *= 10;
+                min += 9;
+            }
+            else{
+                while(f(min) > fa)
+                    min -= pow((double)10, i);
+                break;
+            }
+        }
+
+        ans = min + 1;
+
+        for(int i = 8; i >= 0; --i){
+            for(int j = 9; j > 0; --j){
+                if(f(j * pow((double)10, i)) < fa){
+                    max = (j + 1) * pow((double)10, i);
+                    break;
+                }
+                if(f(j * pow((double)10, i)) == fa){
+                    max = j * pow((double)10, i);
+                    break;
+                }
+            }
+            if(max)
+                break;
+        }
+
+        if(max > b)
+            max = b;
+
+        for(int i = min + 1; i <= max; ++i)
+            if(f(i) <= fa)
+                ++ans;
+
+        cout<<"Case #"<<t+1<<": "<<ans<<endl;
+    }
+    return 0;
+}
+
+int f(int x)
+{
+    int res = 0;
+    for(int i = 0; x; ++i){
+        res += x % 10 << i;
+        x /= 10;
+    }
+    return res;
+}
+

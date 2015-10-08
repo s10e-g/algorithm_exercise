@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+
+#define MAX_DATA 100001
+int data[MAX_DATA];
+
+int ntest;
+int narray;
+int m;
+int count;
+
+
+void calCount()
+{
+    int i, j;
+    int curValue;
+    for(i=0; i<narray; i++)
+    {
+        curValue = data[i];
+        for(j=i; j<narray; j++)
+        {
+            if(j != i)
+                curValue = curValue | data[j];
+            if(curValue >= m)
+            {
+                break;
+            }
+            else
+            {
+                count++;
+            }
+        }
+    }
+}
+
+void handle()
+{
+    scanf("%d", &ntest);
+    for(int i=0; i<ntest; i++)
+    {
+        scanf("%d%d", &narray, &m);
+        for(int j=0; j<narray; j++)
+        {
+            scanf("%d", &data[j]);
+        }
+        count = 0;
+        calCount();
+        //开始处理
+        printf("Case #%d: %d\n", i+1, count);
+    }
+}
+
+void creatData()
+{
+    int flag = 1<<30 - 1;
+    ntest = 1;
+    narray = 100000;
+    srand(time(NULL));
+    m = rand() % flag + 1;
+    for(int i=0; i<narray; i++)
+        data[i] = rand()%flag + 1;
+
+    count = 0;
+    calCount();
+    //开始处理
+    printf("Case #%d: %d\n", 1, count);
+}
+
+int main(int argc, char* argv[])
+{
+    handle();
+    //creatData();
+    return 0;
+}

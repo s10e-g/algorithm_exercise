@@ -1,0 +1,91 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+bool walk(int[][2000], int &, int &, int &, int);
+int move_x(int, int);
+int move_y(int, int);
+
+int main()
+{
+    int map[1002][1002];
+    bool t, d;
+    int tx, ty, td, dx, dy, dd, n;
+    cin>>n;
+    while(n){
+        cin>>dx>>dy>>dd>>tx>>ty>>td;
+        ++dx;
+        ++dy;
+        ++tx;
+        ++ty;
+        t = true;
+        d = true;
+        memset(map, 3, sizeof(map));
+        for(int i = 1; i <= n; ++i)
+            for(int j = 1; j <= n; ++j)
+                map[i][j] = 0;
+        map[dx][dy] = 1;
+        map[tx][ty] = 2;
+        while(!(dx == tx && dy == ty)){
+            if(d)
+                d = walk(map, dx, dy, dd, 2);
+            if(t)
+                t = walk(map, tx, ty, td, 1);
+            if(!t && !d)
+                break;
+        }
+
+        if(dx == tx && dy == ty)
+            cout<<dx-1<<" "<<dy-1<<endl;
+        else
+            cout<<-1<<endl;
+
+        cin>>n;
+    }
+    return 0;
+}
+
+bool walk(int map[][2000], int &x, int &y, int &d, int t)
+{
+    if(!(map[move_x(x, d)][move_y(y, d)] & t)){
+        map[move_x(x, d)][move_y(y, d)] |= t;
+        x = move_x(x, d);
+        y = move_y(y, d);
+    }
+    else{
+        if(t == 1)
+            --d;
+        else
+            ++d;
+        d += 4;
+        d %= 4;
+        if(!(map[move_x(x, d)][move_y(y, d)] & t)){
+            map[move_x(x, d)][move_y(y, d)] |= t;
+            x = move_x(x, d);
+            y = move_y(y, d);
+        }
+        else
+            return false;
+    }
+    return true;
+}
+
+int move_x(int x, int d)
+{
+    if(d == 1)
+        return x+1;
+    if(d == 3)
+        return x-1;
+    return x;
+}
+
+int move_y(int y, int d)
+{
+    if(d == 0)
+        return y+1;
+    if(d == 2)
+        return y-1;
+    return y;
+}
+

@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+    cout<<100<<endl;
+
+    srand(time(NULL));
+    for(int i = 0; i < 100; ++i){
+        cout<<rand()%1000000000<<" "<<rand()%1000000000<<endl;
+    }
+    return 0;
+}
+
